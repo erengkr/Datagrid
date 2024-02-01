@@ -1,0 +1,25 @@
+.navbardiv{
+  padding:20px 50px ;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titles{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+  }
+  .icons{
+    display: flex;
+    gap: 20px;
+  }
+  .icons i{
+    color:rgba(116, 75, 252, 1);
+    font-size: 20px;
+  }
+  .text{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    }

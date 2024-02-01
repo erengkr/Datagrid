@@ -1,0 +1,8 @@
+<div class="task">
+  <app-navbar></app-navbar>
+  <app-data-table [modal]="modal" #table></app-data-table>
+
+</div>
+<app-modal #modal [onSubmit]="table.onModalSubmit.bind(table)"></app-modal>
+
+

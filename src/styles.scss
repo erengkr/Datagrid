@@ -1,0 +1,99 @@
+table.dataTable.display > tbody > tr.odd {
+  background-color: transparent !important;
+
+}
+.table>:not(caption)>*>* {
+  background-color: transparent !important;
+}
+table.dataTable.display > tbody > tr.even {
+  background-color: white !important;
+
+
+
+}
+table.dataTable.display > tbody > tr td {
+  box-shadow: none !important;
+  border:none !important;
+  border-right: 2px solid #E5E5E5 !important;
+  border-radius: 4px !important;
+
+}
+
+table.dataTable.display > thead > tr th {
+  box-shadow: none !important;
+  border-right: 2px solid #E5E5E5 !important;
+  border-radius: 4px !important;
+
+}
+.dataTables_length > label {
+
+  color: #744BFC !important;
+
+}
+.dataTables_length > label > select {
+font-size: 12px;
+border-radius: 50px !important;
+  color: black !important;
+
+}
+.dataTables_filter > label > input {
+  border-radius: 50px 0 0 50px !important;
+width: 200px !important;
+padding:8px 16px !important;
+  background-color: white !important;
+  border:none !important;
+
+
+}
+.button{
+  background-color: #744BFC !important;
+  border-radius: 50px !important;
+  color: white !important;
+  padding: 8px 16px !important;
+  border:none !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease 0s !important;
+  display: flex !important;
+
+}
+.dataTables_filter>label{
+  display: flex !important;
+  flex-direction: row-reverse !important;
+
+  // gap: 15px !important;
+  .filter-button{
+color: #744BFC !important;
+display:flex !important;
+align-items: center !important;
+margin-left: 10px !important;
+width: 45px !important;
+height: 45px !important;
+background-color: white !important;
+border-radius: 30px !important;;
+justify-content: center !important;
+
+  }
+}
+.searchButton{
+
+  background-color: #744BFC !important;
+  border:none !important;
+  border-radius: 0 50px 50px 0 !important;
+  color:white !important;
+  width: 40px !important;
+
+}
+.plus{
+  font-size: 18px !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+  border:none !important;
+  background-color: transparent !important;
+  padding:0 !important;
+  border-radius: 6px !important;
+
+}
